@@ -31,4 +31,4 @@ async def on_message(message):
 		response = random.choice(starter_pokemon)
 		await message.channel.send(response)
 
-client.run("NzQ2NDczNjMwMDIzODExMjUy.X0A1vg.3xZHAfQ7pIGFisuurLBqmtRENi0")
+client.run(TOKEN)
